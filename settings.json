@@ -1,0 +1,151 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "editor.fontLigatures": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.mqh": "cpp",
+    "*.mq4": "cpp",
+    "*.mq5": "cpp"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.pyc": { "when": "$(basename).py" },
+    "**/__pycache__": true,
+    "**/*.pytest_cache": true
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "git.autofetch": true,
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "C_Cpp.errorSquiggles": "disabled",
+  "mql_tools.Metaeditor.Metaeditor5Dir": "D:\\Arquivos de Programas\\MetaTrader 5\\metaeditor64.exe",
+  "mql_tools.Help.MQL5HelpLanguage": "Portuguese",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": false
+  },
+  "editor.minimap.enabled": false,
+  "settingsSync.ignoredSettings": [
+    "-python.condaPath",
+    "-python.defaultInterpreterPath"
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
+  "files.autoSave": "afterDelay",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "html.format.contentUnformatted": "",
+  "editor.tabSize": 8,
+  "aws.resources.enabledResources": [
+    "AWS::Amplify::App",
+    "AWS::RDS::DBInstance"
+  ],
+  "autoDocstring.includeName": true,
+  "pylint.interpreter": [
+    "C:\\Users\\ggullon\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe"
+  ],
+  "python.languageServer": "Pylance",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "autopep8.interpreter": ["C:\\Program Files\\Python311\\python.exe"],
+  // "black-formatter.interpreter": ["C:\\Program Files\\Python311\\python.exe"],
+  "black-formatter.interpreter": [
+    "C:\\Users\\ggullon\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe"
+  ],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.autoFormatStrings": true,
+  "notebook.output.fontSize": 15,
+  "jupyter.askForKernelRestart": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.folders.associations": {
+    "state": "database",
+    "sample-data": "database",
+    "server-actions": "server",
+    "entities": "react-components",
+    "business-entities": "react-components",
+    "business-rules": "dist",
+    "use-cases": "dist",
+    "portfolio": "coverage",
+    "portfolio-table": "coverage",
+    "portfolios": "coverage",
+    "position": "plugin",
+    "positions": "plugin",
+    "user": "container",
+    "profile": "container",
+    "(profile)": "container",
+    "preferences": "ci",
+    "recomendations": "resource",
+    "recomendations-table": "resource",
+    "advisor": "Font",
+    "investor": "review",
+    "new-investor": "review",
+    "(admin)": "admin",
+    "(ceo)": "admin",
+    "hr": "scripts",
+    "finance": "sublime",
+    "payments": "sublime",
+    "billing": "sublime",
+    "tech": "android",
+    "lp": "home",
+    "terms": "contract",
+    "(terms)": "contract",
+    "(terms)/service": "contract",
+    "(terms)/privacy": "contract",
+    "agreements": "contract",
+    "ui": "layout",
+    "backgrounds": "layout",
+    "exceptions": "error",
+    "business-exceptions": "error",
+    "infrastructure": "container",
+    "*types*": "typescript"
+  },
+  "material-icon-theme.files.associations": {
+    "*.mql": "cpp",
+    "*.mqh": "cpp",
+    "*.mq4": "cpp",
+    "*.mq5": "cpp"
+  }
+}
